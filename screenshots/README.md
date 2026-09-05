@@ -86,6 +86,7 @@ The first step was preparing the Linux environment by updating the system packag
 
 This helped create a stable foundation before installing required dependencies.
 
+
 ![System Update](screenshots/ 01-System-Update-and-Upgrade.png)
 
 
