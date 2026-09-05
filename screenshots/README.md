@@ -87,7 +87,7 @@ The first step was preparing the Linux environment by updating the system packag
 This helped create a stable foundation before installing required dependencies.
 
 
-![System Update](screenshots/ 01-System-Update-and-Upgrade.png)
+![System Update](01-System-Update-and-Upgrade.png)
 
 
 ---
@@ -98,7 +98,7 @@ I created an AWS EC2 instance that served as the Jenkins automation server.
 
 The server was configured with the necessary access permissions and security settings required for remote administration.
 
-![AWS EC2 Setup](./screenshots/02-AWS-EC2-Instance-Setup.png)
+![AWS EC2 Setup](02-AWS-EC2-Instances.png)
 
 
 ---
@@ -109,7 +109,7 @@ After preparing the server, Jenkins was installed and configured.
 
 This stage involved understanding how Jenkins operates as an automation server and how it manages continuous integration tasks.
 
-![Jenkins Installation](./screenshots/03-Jenkins-Server-Installation.png)
+![Jenkins Installation](03-Jenkins-Server-EC2-Setup.png)
 
 
 ---
@@ -120,11 +120,13 @@ Since Jenkins requires Java to run, I installed the required Java environment an
 
 Understanding dependencies is an important part of DevOps because automation tools rely on properly configured environments.
 
-![Java Version Check](./screenshots/04-Java-Version-Check.png)
+![Java Version Check](04-Java-Version-Compatibility-Issue.png)
 
-![Java Installation](./screenshots/06-Java-Version-11-Installation.png)
+![Java Installation](06-Java-Version-21-Installed.png)
 
-![Updated Java Verification](./screenshots/15-Updated-Java-Version-Verification.png)
+![Updated Java Version](07-Java-Version-Verification.png)
+
+![ava-Version-Verification](15-Updated-Java-Version-Verification.png)
 
 
 ---
@@ -133,7 +135,7 @@ Understanding dependencies is an important part of DevOps because automation too
 
 Security configuration was completed to ensure Jenkins was properly protected before connecting it with external resources.
 
-![Jenkins Security Configuration](./screenshots/05-Jenkins-Security-Configuration.png)
+![Jenkins Security Configuration](05-Jenkins-Security-Group-Inbound-Rule.png)
 
 
 ---
@@ -144,7 +146,7 @@ I configured Jenkins repository settings to prepare the environment for source c
 
 This step helped me understand how Jenkins connects development activities with automated workflows.
 
-![Jenkins Repository Setup](./screenshots/12-Jenkins-Repository-Setup.png)
+![Jenkins Repository Setup](12-Jenkins-Repository-Configuration.png)
 
 
 ---
@@ -153,7 +155,7 @@ This step helped me understand how Jenkins connects development activities with 
 
 After installation, I enabled and verified that the Jenkins service was running successfully.
 
-![Jenkins Service Enabled](./screenshots/09-Jenkins-Service-Enabled.png)
+![Jenkins Service Enabled](09-Jenkins-Enabled-and-Running.png)
 
 
 ---
@@ -162,9 +164,9 @@ After installation, I enabled and verified that the Jenkins service was running 
 
 The Jenkins web interface was accessed successfully after completing the installation and configuration process.
 
-![Jenkins Welcome Page](./screenshots/10-Welcome-to-Jenkins.png)
+![Jenkins Welcome Page](10-Welcome-to-Jenkins-on-btpwser.png)
 
-![Jenkins Web Interface](./screenshots/11-Jenkins-Web-Interface.png)
+![Jenkins Web Interface](11-Jenkins-Web-Interfac.png)
 
 
 ---
@@ -177,9 +179,9 @@ I configured SSH access to allow Jenkins to communicate with deployment servers 
 
 This is an essential concept in real-world DevOps environments where automation servers interact with application servers.
 
-![SSH NFS Configuration](./screenshots/13-SSH-NFS-Server-Configuration.png)
+![SSH NFS Configuration](13-SSH-NFS-Server-Configuration.png)
 
-![SSH Jenkins Configuration](./screenshots/14-SSH-Jenkins-Server-Configuration.png)
+![SSH Jenkins Configuration](14-SSH-Jenkins-Server-Configuration.png)
 
 
 ---
@@ -190,7 +192,7 @@ The final stage involved creating a Jenkins freestyle project.
 
 This allowed Jenkins to execute automated tasks based on predefined configurations.
 
-![Jenkins Freestyle Project](./screenshots/16-Jenkins-Freestyle-Project.png)
+![Jenkins Freestyle Project](16-Jenkins-Freestyle-Project.png)
 
 
 ---
